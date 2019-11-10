@@ -5,70 +5,71 @@
 **2012 yılında ASP ile hazırladığım sayıyı Türk Lirası olarak yazıya çevirme fonksiyonunu PHP'ye çevirip paylaşmak istedim.**
 
 
-```
+```php
 echo NumberToTurkishLira( -0.50 );
-- Eksi Elli Kuruş
+Output: Eksi Elli Kuruş
 ```
-```
+
+```php
 echo NumberToTurkishLira( -13.11 );
-- Eksi On Üç Lira, On Bir Kuruş
+Output: Eksi On Üç Lira, On Bir Kuruş
 ```
 
-```
+```php
 echo NumberToTurkishLira( 9.90 );
-- Dokuz Lira, Doksan Kuruş
+Output: Dokuz Lira, Doksan Kuruş
 ```
 
-```
+```php
 echo NumberToTurkishLira( 12.12 );
 
-- On İki Lira, On İki Kuruş
+Output: On İki Lira, On İki Kuruş
 ```
 
-```
+```php
 echo NumberToTurkishLira( 500 );
 
-- Beş Yüz Lira
+Output: Beş Yüz Lira
 ```
 
-```
+```php
 echo NumberToTurkishLira( 1000 );
 
-- Bin Lira
+Output: Bin Lira
 ```
 
-```
+```php
 echo NumberToTurkishLira( 1453 );
 
-- Bin Dört Yüz Elli Üç Lira
+Output: Bin Dört Yüz Elli Üç Lira
 ```
 
-```
+```php
 echo NumberToTurkishLira( 1923 );
 
-- Bin Dokuz Yüz Yirmi Üç Lira
+Output: Bin Dokuz Yüz Yirmi Üç Lira
 ```
 
-```
+```php
 echo NumberToTurkishLira( 59421.45 );
 
-- Elli Dokuz Bin Dört Yüz Yirmi Bir Lira, Kırk Beş Kuruş
+Output: Elli Dokuz Bin Dört Yüz Yirmi Bir Lira, Kırk Beş Kuruş
 ```
 
-```
+```php
 echo NumberToTurkishLira( 9458761 );
 
-- Dokuz Milyon Dört Yüz Elli Sekiz Bin Yedi Yüz Altmış Bir Lira
+Output: Dokuz Milyon Dört Yüz Elli Sekiz Bin Yedi Yüz Altmış Bir Lira
 ```
 
-```
+```php
 echo NumberToTurkishLira( 7343457483664.82 );
 
-- Yedi Trilyon Üç Yüz Kırk Üç Milyar Dört Yüz Elli Yedi Milyon Dört Yüz Seksen Üç Bin Altı Yüz Altmış Dört Lira, Seksen İki Kuruş
+Output: Yedi Trilyon Üç Yüz Kırk Üç Milyar Dört Yüz Elli Yedi Milyon Dört Yüz Seksen Üç Bin Altı Yüz Altmış Dört Lira, Seksen İki Kuruş
 ```
 
-```
+```php
 echo NumberToTurkishLira( 95001125453345.80 );
 
-- Doksan Beş Trilyon Bir Milyar Yüz Yirmi Beş Milyon Dört Yüz Elli Üç Bin Üç Yüz Kırk Beş Lira, Seksen Kuruş
+Output: Doksan Beş Trilyon Bir Milyar Yüz Yirmi Beş Milyon Dört Yüz Elli Üç Bin Üç Yüz Kırk Beş Lira, Seksen Kuruş
 ```
